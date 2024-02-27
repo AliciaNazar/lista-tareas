@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+h1{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 50px;
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.div1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: rgb(119, 219, 255); */
+    border: 5px solid rgb(14, 83, 108);
+    /* background-image: url(../assets/img/notepad.jpg);
+    background-size: contain; */
+    border-radius: 10px;
+    width: 50vw;
+    min-height: 50vh;
+    height: auto;
+    padding: 30px;
+}
+
+.tareas{
+    list-style: none;
+    padding: 0px;
+    /* display: flex; */
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 90%;
+    overflow-y: auto;
+
+}
+.lista-tareas{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    overflow-wrap: break-word;
+}
+.boton-eliminar{
+    height: 20px;
+    border: 1px solid #ff0000;
+    border-radius: 10px;
+    background-color: rgb(255, 70, 70);
+    color:white;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.boton-eliminar:hover{
+    background-color: #ff7d7d;
+    border: 1px solid #e77878;
+    color: rgb(255, 255, 255);
+}
+.boton-eliminar:active{background-color: #990000;}
+
+.boton-agregar{
+    height: 20px;
+    border: 1px solid #2e7430;
+    border-radius: 10px;
+    background-color: #4CAF50;
+    color:white;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    height: 30px;
+    width: 100px;
+    margin-top: 5px;
+}
+.boton-agregar:hover{
+    background-color: #98eb9b;
+    border: 1px solid #4CAF50;
+    color: rgb(255, 255, 255);
+}
+.boton-agregar:active{background-color: #4CAF50;}

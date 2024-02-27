@@ -1,0 +1,15 @@
+<div class="principal">
+  <div class="div1"  id="div1">
+    <h1>Lista de Tareas</h1>
+    <ul class="tareas">
+      @for (tarea of listaDeTareas; track $index) {
+        <li class="lista-tareas">
+          {{tarea}}
+          <button (click)="eliminarTarea($index)" class="boton-eliminar">Eliminar</button>
+        </li>
+      }
+    </ul>
+    <input type="text" placeholder="Nueva tarea" [(ngModel)]="nuevaTarea">
+    <button (click)="agregarTarea()" class="boton-agregar">Agregar</button>
+  </div>
+</div>
