@@ -1,5 +1,5 @@
 <div class="principal">
-  <div class="div1"  id="div1">
+  <div #div1 id="div1" (window:resize)="onDivResize($event)" class="div1" [style.background-color]="miColor">
     <h1>Lista de Tareas</h1>
     <ul class="tareas">
       @for (tarea of listaDeTareas; track $index) {
