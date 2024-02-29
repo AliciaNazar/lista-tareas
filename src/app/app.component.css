@@ -23,7 +23,7 @@ h1{
     background-size: contain; */
     border-radius: 10px;
     width: 50vw;
-    min-height: 50vh;
+    min-height: 20vh;
     height: auto;
     padding: 30px;
 }
